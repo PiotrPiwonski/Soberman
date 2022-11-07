@@ -1,0 +1,221 @@
+.fa-home {
+  color: rgb(255, 170, 0);
+}
+
+/* MAIN */
+
+main {
+  position: relative;
+  height: 120vh;
+  background-image: url(../img/soberman.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+/* WRAPPER */
+
+.wrapper {
+  font-size: 1.4rem;
+  margin: 10px 60px 10px 20px;
+  transition: 0.3s linear;
+  color: rgb(255, 170, 0);
+}
+
+.wrapper h1 {
+  display: inline;
+}
+
+#info {
+  display: inline;
+  animation: shakes 1s linear infinite;
+  padding: 20px;
+  line-height: 2;
+}
+
+#span {
+  display: inline-block;
+  animation: shakes 1s linear infinite;
+  cursor: pointer;
+  color: rgb(6, 255, 135);
+  text-transform: uppercase;
+}
+
+@keyframes shakes {
+  0% {
+    transform: translateX(0) rotateX(0deg);
+  }
+
+  90% {
+    transform: translateX(0) rotateX(0deg);
+  }
+
+  91% {
+    transform: translateX(20px) rotateX(-10deg);
+  }
+
+  92% {
+    transform: translateX(-20px) rotateX(10deg);
+  }
+
+  93% {
+    transform: translateX(20px) rotateX(-10deg);
+  }
+
+  94% {
+    transform: translateX(-20px) rotateX(10deg);
+  }
+
+  95% {
+    transform: translateX(20px) rotateX(-10deg);
+  }
+
+  96% {
+    transform: translateX(-20px) rotateX(10deg);
+  }
+
+  97% {
+    transform: translateX(20px) rotateX(-10deg);
+  }
+
+  98% {
+    transform: translateX(-20px) rotateX(10deg);
+  }
+
+  99% {
+    transform: translateX(20px) rotateX(-10deg);
+  }
+
+  100% {
+    transform: translateX(0) rotateX(0deg);
+  }
+}
+
+/* 
+.wrapper.show {
+    padding-top: 30vh;
+} */
+
+/* Sekcje nowości */
+
+section {
+  color: rgb(255, 170, 0);
+}
+
+.about {
+  margin: 90px 0;
+}
+
+.about h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.about h2 {
+  padding: 20px 20px 20px 10vw;
+  font-size: 2rem;
+  /* text-transform: uppercase; */
+  letter-spacing: 1px;
+  font-weight: normal;
+  text-align: center;
+  margin: 20px 10px;
+  color: rgb(255, 170, 0);
+  border: 2px solid rgb(255, 170, 0);
+  border-radius: 12px;
+}
+
+.about img {
+  float: left;
+  padding: 0 20px;
+  width: 320px;
+}
+
+@media (min-width: 360px) {
+  .about img {
+    width: 360px;
+  }
+}
+
+@media (min-width: 400px) {
+  .about img {
+    width: 400px;
+  }
+}
+
+.about p {
+  font-size: 1rem;
+  padding: 20px;
+  line-height: 2;
+}
+
+.about article {
+  margin-bottom: 30px;
+  transition: 1s;
+}
+
+.about .art1 p a {
+  font-family: "Staatliches", cursive;
+  font-size: 1.2rem;
+  display: inline;
+  color: rgb(6, 255, 135);
+  text-decoration: underline;
+}
+
+.about .art2 p a {
+  font-family: "Staatliches", cursive;
+  font-size: 1.2rem;
+  display: inline;
+  color: rgb(6, 255, 135);
+  text-decoration: underline;
+}
+
+.art3 div {
+  /* awaryjnie dla mobile */
+  /* background-image: url(); */
+  height: 50vh;
+  overflow: hidden;
+  position: relative;
+}
+
+video.koncert {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.art3 div h1 {
+  position: absolute;
+  z-index: 1;
+  color: rgba(255, 170, 0, 0.7);
+  width: 100%;
+  text-align: center;
+  font-family: "Staatliches", cursive;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px 0;
+}
+
+.about .art2,
+.about .art4 {
+  transform: translateX(-100vw);
+}
+
+.about .art1,
+.about .art3 {
+  transform: translateX(-100vw);
+}
+
+.about .art1.active,
+.about .art2.active,
+.about .art4.active,
+.about .art3.active {
+  transform: translateX(0);
+}

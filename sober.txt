@@ -1,0 +1,65 @@
+Witamy!
+
+Twoja us³uga na serwerze WEBD zosta³a aktywowana.
+Dziêkujemy za obdarzenie nas Swoim zaufaniem.
+Ju¿ teraz mo¿esz wydrukowaæ fakturê VAT z zak³adki Finanse - Wp³aty, loguj¹c siê przez stronê WEBD.pl
+
+Dane dotycz¹ce us³ugi
+Nazwa us³ugi: mini
+Twoja us³uga bêdzie aktywna do: 2020-02-22
+
+Twój login do CPanel/FTP: soberman
+Twoje has³o do Cpanel/FTP: artbi763
+Prosimy o aktualizacjê has³a po pierwszym logowaniu. Adres domyœlny Twojej strony: www.soberman.webd.pro
+Adres mail do utworzenia: soberman@soberman.webd.pro
+Adres do Panelu Administracyjnego CPanel: https://wn18.webd.pl:2083/
+Adres FTP: wn18.webd.pl
+Poczta WWW: https://wn18.webd.pl:2096/
+
+Adresy serwerów nazw (DNS) w przypadku u¿ywania w³asnych domen:
+ns5.webd.pl IP: 194.181.229.254
+ns7.webd.pl IP: 194.181.228.155
+
+Najwa¿niejsze przyk³ady konfiguracji naszych us³ug zosta³y przedstawione za pomoc¹ prezentacji multimedialnych dostêpnych na stronie https://www.webd.pl/pomoc/krokpokroku POLECAMY!!!
+
+Zachêcamy równie¿ do korzystania z Panelu Klienta WEBD gdzie mo¿na znaleŸæ:
+- wyszczególnienie abonamentów zakupionych us³ug (zak³adka Produkty)
+- podstawowe dane w³aœciciela us³ug (zak³adka Twoje Dane)
+- podstawowe dane o Kliencie WEBD i jego koncie,
+- informacje odnoœnie wp³at i faktur VAT (zak³adka Finanse)
+- system poczty wewnêtrznej, za pomoc¹ którego ³atwo i szybko mo¿esz skontaktowaæ siê z administratorami WEBD (zak³adka Wiadomoœci)
+- odpowiedzi na pytania najczêœciej zadawane przez naszych Klientów (zak³adka Pomoc)
+
+
+
+Welcome!
+
+Your service on WEBD server has been activated.
+Thank You for giving us Your trust.
+Now You can print the invoice from Finances - Payments section in Clients Panel, logging on WEBD.pl
+
+Details about the service
+Name: mini
+Your service will remain active until: 2020-02-22
+
+Your login to CPanel/FTP: soberman
+Your password to CPanel/FTP: artbi763
+Change the passowrd after first log in. Your page default address: www.soberman.webd.pro
+E-mail address to create: soberman@soberman.webd.pro
+Address to CPanel: https://wn18.webd.pl:2083/
+FTP address: wn18.webd.pl
+WWW email access: https://wn18.webd.pl:2096/
+
+Domain Name System (DNS) in case of using Your own domains:
+ns5.webd.pl IP: 194.181.229.254
+ns7.webd.pl IP: 194.181.228.155
+
+The examples of our services configuration are displayed by multimedia presentations available on https://www.webd.pl/en/pomoc/krokpokroku We recommend it !!!
+
+We also encourage to use WEBD Clients Panel, where You can find:
+- subscription details about Your services (Products section)
+- basic information about the owner (Your Personal Details section)
+- basic data about WEBD Client and his account
+- information about payments and invoices (Finances section)
+- inside mailing system, thanks to which You can easily and quickly contact WEBD admins(Messages section)
+- answers to most frequent questions asked by our Clients (Help section)

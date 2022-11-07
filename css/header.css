@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+html {
+
+  /* font-family: 'Roboto', sans-serif; */
+
+  font-family: 'Staatliches', cursive;
+}
+
+
+body {
+  overflow-x: hidden;
+  font-size: 10px;
+  background-color: rgb(14, 13, 11);
+  position: relative;
+}
+
+body::after {
+  content: "";
+  background-image: url(../img/logo.png);
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.burger {
+  position: fixed;
+  top: 0.2rem;
+  right: 2rem;
+  /* background-color: grey; */
+  width: 2rem;
+  height: 2rem;
+  transition: .2s;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.burger.show {
+  transform: rotate(90deg);
+}
+
+.burger span {
+  position: absolute;
+  width: 100%;
+  height: 6px;
+  background-color: rgb(6, 255, 135);
+  left: 0;
+  transition: top .3s .3s, bottom .3s .3s, opacity .3s .3s, transform .3s .3s;
+}
+
+.burger span:nth-child(1) {
+  top: 0;
+}
+
+.burger.show span:nth-child(1) {
+  top: calc(50% - 3px);
+  transform: rotate(45deg);
+}
+
+.burger span:nth-child(2) {
+  top: calc(50% - 3px);
+}
+
+.burger.show span:nth-child(2) {
+  top: calc(50% - 3px);
+  opacity: 0;
+}
+
+.burger span:nth-child(3) {
+  bottom: 0;
+}
+
+.burger.show span:nth-child(3) {
+  top: calc(50% - 3px);
+  transform: rotate(-45deg);
+}
+
+
+/* HEADER */
+header {
+  height: 20vh;
+  position: relative;
+}
+
+.menu {
+  z-index: 2;
+}
+
+.menu:nth-child(1) {
+  position: fixed;
+  top: 0;
+  height: 10vh;
+  left: -100%;
+  width: 100%;
+  background-color: #000;
+  transition: .3s linear;
+}
+
+.menu:nth-child(2) {
+  position: fixed;
+  top: 10vh;
+  height: 10vh;
+  left: +100%;
+  width: 100%;
+  background-color: #000;
+  transition: .3s linear;
+}
+
+.menu.show {
+  left: 0;
+}
+
+/* .fas {
+  display: none;
+  color: gray;
+}
+
+i.show {
+  display: block;
+} */
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  flex-basis: 25%;
+  /* flex-shrink: 1; */
+}
+
+a {
+  display: block;
+  /* background-color: grey; */
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(6, 255, 135);
+  font-family: sans-serif;
+  text-decoration: none;
+  padding-top: 0.2rem;
+  /* margin: 15px; */
+}
+
+/* START */
+.start {
+  position: fixed;
+  width: 100%;
+  height: 20vh;
+  background-color: rgb(14, 13, 11);
+  z-index: 1;
+}
+
+.start h1 {
+  font-size: 2.5rem;
+  color: rgb(6, 255, 135);
+  line-height: 25vh;
+  text-align: center;
+}
+
+@media (min-width: 530px) {
+  header {
+    height: 10vh;
+  }
+
+  .menu:nth-child(1) {
+    top: 0;
+    height: 10vh;
+    /* left: -100%; */
+    left: +100%;
+    width: 50%;
+  }
+
+  .menu:nth-child(2) {
+    top: 0;
+    height: 10vh;
+    /* left: +100%; */
+    left: -100%;
+    width: 50%;
+  }
+
+  .menu:nth-child(1).show {
+    left: 50%;
+  }
+
+  .menu:nth-child(2).show {
+    left: 0;
+  }
+
+  .start {
+    height: 10vh;
+  }
+
+  .start h1 {
+    line-height: 10vh;
+  }
+}
+
+@media (min-width: 900px) {
+  .burger {
+    top: 0.5rem;
+    right: 2rem;
+    /* background-color: grey; */
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  ul li a {
+    font-size: 2.5rem;
+    padding-top: 0.5rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .burger {
+    top: 1rem;
+    right: 2rem;
+    /* background-color: grey; */
+    width: 3rem;
+    height: 3rem;
+  }
+
+  ul li a {
+    font-size: 3rem;
+    padding-top: 1rem;
+  }
+}

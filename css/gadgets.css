@@ -1,0 +1,470 @@
+/* PRODUKTY */
+
+.wrapper {
+  overflow: hidden;
+  width: 100%;
+  flex-grow: 1;
+  /* kontener flex */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-direction: row;
+}
+
+.container {
+  flex-basis: 100%;
+  position: relative;
+  height: 70vh;
+}
+
+
+
+
+
+#gadget {
+  /* padding-top: 20px; */
+  width: 300px;
+  margin: 0 auto;
+}
+
+#card,
+#card1,
+#card2,
+#card3 {
+  width: 300px;
+  margin: 0 auto;
+}
+
+img {
+  width: 300px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.front img {
+  position: absolute;
+  z-index: 3;
+}
+
+.back img {
+  position: absolute;
+}
+
+/* ARTYKUŁY */
+article {
+  color: rgb(255, 170, 0);
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* FORM */
+form {
+  /* background-color: rgba(255, 255, 255, 0.6); */
+  padding: 15px;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* form div.row {
+  width: 80%;
+  margin: 0 auto;
+} */
+
+form input,
+form textarea,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  border-radius: 6px;
+}
+
+input {
+  height: 20px;
+}
+
+button {
+  background-color: rgb(14, 13, 11);
+  color: rgb(6, 255, 135);
+  border: 2px solid rgb(6, 255, 135);
+  height: 30px;
+
+}
+
+.fa-gift {
+  color: rgb(255, 170, 0);
+}
+
+
+
+/* POZYCJA POZIOMA */
+
+@media (orientation: landscape) and (min-width: 530px) {
+  .container {
+    flex-basis: 50%;
+    height: 130vh;
+  }
+
+  article h1 {
+    font-size: 1.4rem;
+  }
+
+  article p {
+    font-size: 1.2rem;
+  }
+
+  #gadget {
+    padding-top: 20px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 530px) and (min-height: 400px) {
+  .container {
+    flex-basis: 50%;
+    height: 100vh;
+  }
+
+  article h1 {
+    font-size: 1.4rem;
+  }
+
+  article p {
+    font-size: 1.2rem;
+  }
+
+  #gadget {
+    padding-top: 20px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 640px) and (min-height: 400px) {
+  .container {
+    flex-basis: 50%;
+    height: 100vh;
+  }
+
+  article h1 {
+    font-size: 1.4rem;
+  }
+
+  article p {
+    font-size: 1.2rem;
+  }
+
+  #gadget {
+    padding-top: 20px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 640px) and (min-height: 600px) {
+  .container {
+    flex-basis: 50%;
+    height: 80vh;
+  }
+
+  article h1 {
+    font-size: 1.4rem;
+  }
+
+  article p {
+    font-size: 1.2rem;
+  }
+
+  #gadget {
+    padding-top: 20px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 800px) {
+  .container {
+    flex-basis: 25%;
+    height: 50vh;
+  }
+
+  article h1 {
+    font-size: 1.4rem;
+  }
+
+  article p {
+    font-size: 1.2rem;
+  }
+
+  #gadget {
+    padding-top: 20px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 800px) and (min-height: 400px) {
+  .container {
+    flex-basis: 25%;
+    height: 100vh;
+  }
+
+  article h1 {
+    font-size: 1.4rem;
+  }
+
+  article p {
+    font-size: 1.2rem;
+  }
+
+  #gadget {
+    padding-top: 20px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 800px) and (min-height: 600px) {
+  .container {
+    flex-basis: 25%;
+    height: 70vh;
+  }
+
+  article h1 {
+    font-size: 1.4rem;
+  }
+
+  article p {
+    font-size: 1.2rem;
+  }
+
+  #gadget {
+    padding-top: 20px;
+  }
+
+  #description {
+    font-size: 20px;
+  }
+
+  #name,
+  #email {
+    height: 40px;
+    font-size: 20px;
+  }
+
+  #btn {
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  #btn:hover {
+
+    background-color: rgb(6, 255, 135);
+    color: rgb(14, 13, 11);
+    border: 2px solid rgb(6, 255, 135);
+
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1000px) and (min-height: 750px) {
+  .container {
+    flex-basis: 25%;
+    height: 60vh;
+  }
+
+  article h1 {
+    font-size: 1.6rem;
+  }
+
+  article p {
+    font-size: 1.4rem;
+  }
+
+  #gadget {
+    padding-top: 20px;
+  }
+
+  #description {
+    font-size: 20px;
+  }
+
+  #name,
+  #email {
+    height: 40px;
+    font-size: 20px;
+  }
+
+  #btn {
+    height: 40px;
+    font-size: 20px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1300px) and (min-height: 800px) {
+  .container {
+    flex-basis: 25%;
+    height: 50vh;
+  }
+
+  article h1 {
+    font-size: 1.8rem;
+  }
+
+  article p {
+    font-size: 1.6rem;
+  }
+
+  #gadget {
+    padding-top: 20px;
+  }
+
+  #description {
+    font-size: 25px;
+  }
+
+  #name,
+  #email {
+    height: 50px;
+    font-size: 25px;
+  }
+
+  #btn {
+    height: 50px;
+    font-size: 25px;
+  }
+}
+
+
+/* PORTRETOWE */
+
+@media (orientation: portrait) and (min-width: 300px) and (min-height: 400px) {
+  .container {
+    flex-basis: 50%;
+    height: 100vh;
+  }
+
+  article h1 {
+    font-size: 1.4rem;
+  }
+
+  article p {
+    font-size: 1.2rem;
+  }
+
+  #gadget {
+    padding-top: 20px;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 320px) and (min-height: 500px) {
+  .container {
+    flex-basis: 50%;
+    height: 70vh;
+  }
+
+  article h1 {
+    font-size: 1.4rem;
+  }
+
+  article p {
+    font-size: 1.2rem;
+  }
+
+  #gadget {
+    padding-top: 20px;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 640px) {
+  .container {
+    flex-basis: 50%;
+    height: 50vh;
+  }
+
+  article h1 {
+    font-size: 1.4rem;
+  }
+
+  article p {
+    font-size: 1.2rem;
+  }
+
+  #gadget {
+    padding-top: 20px;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 760px) {
+  .container {
+    flex-basis: 50%;
+    height: 50vh;
+  }
+
+  article h1 {
+    font-size: 1.6rem;
+  }
+
+  article p {
+    font-size: 1.4rem;
+  }
+
+  #gadget {
+    padding-top: 20px;
+  }
+
+  #description {
+    font-size: 20px;
+  }
+
+  #name,
+  #email {
+    height: 40px;
+    font-size: 20px;
+  }
+
+  #btn {
+    height: 40px;
+    font-size: 20px;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 1000px) {
+  .container {
+    flex-basis: 25%;
+    height: 40vh;
+  }
+
+  article h1 {
+    font-size: 2rem;
+  }
+
+  article p {
+    font-size: 1.8rem;
+  }
+
+  #gadget {
+    padding-top: 20px;
+  }
+
+  #description {
+    font-size: 25px;
+  }
+
+  #name,
+  #email {
+    height: 50px;
+    font-size: 25px;
+  }
+
+  #btn {
+    height: 50px;
+    font-size: 25px;
+  }
+}
