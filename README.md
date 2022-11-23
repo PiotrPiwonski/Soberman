@@ -1,7 +1,7 @@
 # soberman
 
-Mój pierwszy projekt html, css i js zrobiony dla kolegi. Jest to prosta responsywna strona prezentująca twórcę hip-hop.
+Mój pierwszy projekt html, css i js zrobiony dla kolegi. Jest to prosta responsywna strona prezentująca twórcę hip-hop i jego play-listy z YouTube.
 
-Css oparty na flex-box. Js-jQuery użyłem do obsługi youtube-API, jquery.flip, i obsługi animacji na stronie.
+Css oparty na flex-box. Js-jQuery użyłem do obsługi youtube-API, jquery.flip , i obsługi animacji na stronie.
 
 <a href="https://piotrpiwonski.github.io/soberman/">Podgląd strony</a>
